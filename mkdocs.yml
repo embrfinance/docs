@@ -33,6 +33,9 @@ edit_uri: ""
 # Copyright
 copyright: Copyright &copy; 2016 - 2021 Embr Finance
 
+extra_css:
+  - css/extra.css
+
 # Configuration
 theme:
   name: material
@@ -64,18 +67,9 @@ theme:
     - search.suggest
     # - toc.integrate
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
     - scheme: slate
       primary: red
       accent: red
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
@@ -145,10 +139,11 @@ nav:
     - Pools: balancer/pools.md
     - Liquidity Providers: balancer/liquidity-providers.md
     - Security: balancer/security.md
-    - Protcol Fees: balancer/protocol-fees.md
+    - Protocol Fees: balancer/protocol-fees.md
   - Embr:
     - Tokenomics: embr/tokenomics.md
     - Token Emissions: embr/token-emissions.md
+    - Emission Schedule: embr/emission-schedule.md
     - EMBR Liquidity Staking: embr/embr-liquidity-staking.md
     - Pool Incentives: embr/pool-incentives.md
   - Misc: 
